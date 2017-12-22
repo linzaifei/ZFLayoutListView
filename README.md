@@ -51,12 +51,45 @@ typedef NS_ENUM(NSInteger,ZFShowType){
 
 
  ###### 1.2 如果需要可以输单行输入需要修改canEdit 这个属性变成YES
+ ```
+ /** 可不可以编辑 默认 NO  */
+@property(assign,nonatomic)BOOL canEdit;
+ /**  限制输入多少字数 默认不限制输入*/
+@property(assign,nonatomic)NSInteger limitLength;
  
+ ```
 
-
+![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.58.png)
+![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.56.33.png)
  
+  ###### 1.3 如果需要右边是按钮只要需要设置type =1 和title就可以 也可以在左侧添加标记和图片等
+ ```
+/** 判断cell 后面显示内容 输入框 按钮 等*/
+@property(assign,nonatomic)ZFShowType type;
+ /** 图片+标题 */
+@property(copy,nonatomic)NSString *titleImg;
+/** 标题 */
+@property(copy,nonatomic)NSString *title;
+/** 是否需要标记 * 默认NO */
+@property(assign,nonatomic)BOOL canTag;
+ ```
  
+ ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2014.01.51.png)
  
+   ###### 1.4 多行输入只要需要设置type =2 和title就可以 也可以在左侧添加标记和图片等
+ 
+  ```
+/** 判断cell 后面显示内容 输入框 按钮 等*/
+@property(assign,nonatomic)ZFShowType type;
+ /** 图片+标题 */
+@property(copy,nonatomic)NSString *titleImg;
+/** 标题 */
+@property(copy,nonatomic)NSString *title;
+/** 是否需要标记 * 默认NO */
+@property(assign,nonatomic)BOOL canTag;
+ ```
+ 
+ ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2014.02.15.png)
  
 
 
@@ -92,6 +125,7 @@ typedef NS_ENUM(NSInteger,ZFShowType){
 @property(nonatomic) UIKeyboardType keyboardType;
 /** 判断输入的提交时候可不可以为空 */
 @property(assign,nonatomic)BOOL canEmpty;
+
 /**------- 下面是属性是对于开关的 ------------ */
 /** 进入默认开启还是关闭 */
 @property(assign,nonatomic)BOOL on;
