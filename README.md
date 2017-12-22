@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger,ZFShowType){
  
  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2014.01.51.png)
  
-   ###### 1.4 多行输入只要需要设置type =2 和title就可以 也可以在左侧添加标记和图片等
+###### 1.4 多行输入只要需要设置type =2 和title就可以 也可以在左侧添加标记和图片等
  
   ```
 /** 判断cell 后面显示内容 输入框 按钮 等*/
@@ -91,6 +91,34 @@ typedef NS_ENUM(NSInteger,ZFShowType){
  
  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2014.02.15.png)
  
+### 2.获取输入数据
+```
+在 ZFCustomTools 在这个工具类中我们可以获取输入的数据 具体使用可以自己看看demo 
+
+/** plist转模型 */
++(NSMutableArray <ZFCustomModel *>*)zf_getDataWithPlist:(NSString *)plist;
+/** 根据indexPath获取对应模型 */
++(ZFDetailCustomModel *)zf_getModelWithArr:(NSArray *)dataArr fromIndexPath:(NSIndexPath *)path;
+/** 根据模型获取转换数据 */
++(id)zf_getObjctWithModelArr:(NSArray *)dataArr;
+/**
+ 根据输入的数据获取输入数据 并且转成对于需要的数据 key-value
+ originalArr 存储是key
+ 一组或多组使用
+ @[@[string,string,string,string,],@[string,string,string,string,]];
+ 必须一一对应才可以 
+ */
++(NSMutableDictionary *)zf_getObjectWithModelArr:(NSMutableArray *)dataArr WithOriginal:(NSArray *)originalKeys;
+
+/** 根据输入数据 判断数据能不能为空
+ 调用方法 [ZFCustomTools zf_changeInputData](NSarray) 返回字典
+ */
++(NSDictionary *(^)(NSArray *dataArr))zf_changeInputData;
+
+```
+ 
+ 
+![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2014.03.07.png)
 
 
 
