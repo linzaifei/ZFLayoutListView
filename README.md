@@ -2,6 +2,14 @@
 
 ### 最近项目中遇到很多需要输入的ListView 30-40 界面需要两三天完成 所以想到使用plist存储数据 用来快速布局 （各种显示listView 和个人中心等）
 
+##### 你想要什么cell 必须需要添加type  默认可以输入
+```
+typedef NS_ENUM(NSInteger,ZFShowType){
+    ZFShowTypeInput = 0,//可以输入一行
+    ZFShowTypeSwitch,//按钮
+    ZFShowTypeInputMore,//输入多行
+};
+```
 
 ##### 1.如果需要自定义可以继承于 ZFBaseTableView 即可
 
@@ -34,8 +42,16 @@
  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.23.png)
  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.34.png)
  
- 当plist文件中不配置text属性
+ 当plist文件中不配置text属性 分组 有尾试图 等 
+ 其中尾试图可以自己根据继承于ZFBaseTableView 修改成自己想要的样式等
+ 
  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.37.png)
+  ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.40.png)
+   ![image](https://github.com/linzaifei/ZFLayoutListView/blob/master/layoutImages/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202017-12-22%20at%2013.54.43.png)
+
+
+ ###### 1.2 如果需要可以输单行输入需要修改canEdit 这个属性变成YES
+ 
 
 
  
