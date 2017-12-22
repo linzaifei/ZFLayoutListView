@@ -72,11 +72,6 @@
         make.height.greaterThanOrEqualTo(@32);
         make.width.greaterThanOrEqualTo(@180);
     }];
-    @weakify(self);
-    [self.textView.rac_textSignal subscribeNext:^(NSString * _Nullable x) {
-        @strongify(self);
-        self.model.text = x;
-    }];
 }
 
 - (void)textViewDidChange:(UITextView *)textView{
@@ -86,7 +81,7 @@
     CGSize newSize = [textView sizeThatFits:maxSize];
     bounds.size = newSize;
     textView.bounds = bounds;
-    
+    self.model.text = textView.text;
     // 让 table view 重新计算高度
     UITableView *tableView = [self tableView];
     [tableView beginUpdates];
