@@ -6,8 +6,8 @@
 //  Copyright © 2017年 linzaifei. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ZFShowViewController.h"
 
-@interface ZFWriteViewController : UIViewController
+@interface ZFWriteViewController : ZFShowViewController
 
 @end

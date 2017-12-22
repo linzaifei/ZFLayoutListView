@@ -7,18 +7,25 @@
 //
 
 #import "ZFShowViewController.h"
-
+#import "ZFCustomTableView.h"
+#import "ZFCustomTools.h"
 @interface ZFShowViewController ()
-
+@property(strong,nonatomic)ZFCustomTableView *tableView;
 @end
 
 @implementation ZFShowViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor grayColor];
+    [self setUI];
+    RAC(self.tableView,dataArr) = RACObserve(self,dataArr);
 }
 
+-(void)setUI{
+    self.tableView = [[ZFCustomTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

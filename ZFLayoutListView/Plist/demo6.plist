@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   demo6.plist
-   ZFLayoutListView
-
-   Created by linzaifei on 2017/12/8.
-   Copyright (c) 2017年 linzaifei. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>canHaveFooter</key>
+		<true/>
+		<key>sectionFooterTitle</key>
+		<string>这是尾标题1</string>
+		<key>sectionHeaderTitle</key>
+		<string>这是组1</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>itemsArr</key>
+		<array>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_help</string>
+				<key>canTag</key>
+				<true/>
+				<key>title</key>
+				<string>类型1</string>
+				<key>text</key>
+				<string>测试数据1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>类型2</string>
+				<key>text</key>
+				<string>测试数据2</string>
+			</dict>
+			<dict>
+				<key>canTag</key>
+				<true/>
+				<key>titleImg</key>
+				<string>mediate_phone</string>
+				<key>title</key>
+				<string>类型3</string>
+				<key>text</key>
+				<string>测试数据3</string>
+			</dict>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_note</string>
+				<key>title</key>
+				<string>类型4</string>
+				<key>text</key>
+				<string>测试数据4</string>
+			</dict>
+			<dict>
+				<key>canTag</key>
+				<true/>
+				<key>title</key>
+				<string>类型5</string>
+				<key>text</key>
+				<string>测试数据5</string>
+			</dict>
+		</array>
+	</dict>
+</array>
 </plist>

@@ -3,87 +3,41 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>isHaveFooter</key>
-		<false/>
-		<key>sectionFooterTitle</key>
-		<string></string>
-		<key>sectionTitle</key>
-		<string>这是第一个demo</string>
+		<key>sectionHeaderTitle</key>
+		<string>这是分组1</string>
 		<key>section</key>
 		<integer>0</integer>
-		<key>canDelete</key>
-		<false/>
 		<key>itemsArr</key>
 		<array>
 			<dict>
-				<key>canEdit</key>
-				<false/>
-				<key>placeholder</key>
-				<string></string>
 				<key>title</key>
 				<string>类型1</string>
 				<key>text</key>
 				<string>测试数据1</string>
-				<key>ishiddenBack</key>
-				<false/>
-				<key>canEmpty</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>canEdit</key>
-				<false/>
-				<key>placeholder</key>
-				<string></string>
 				<key>title</key>
 				<string>类型2</string>
 				<key>text</key>
 				<string>测试数据2</string>
-				<key>ishiddenBack</key>
-				<false/>
-				<key>canEmpty</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>canEdit</key>
-				<false/>
-				<key>placeholder</key>
-				<string></string>
 				<key>title</key>
 				<string>类型3</string>
 				<key>text</key>
 				<string>测试数据3</string>
-				<key>ishiddenBack</key>
-				<false/>
-				<key>canEmpty</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>canEdit</key>
-				<false/>
-				<key>placeholder</key>
-				<string></string>
 				<key>title</key>
 				<string>类型4</string>
 				<key>text</key>
 				<string>测试数据4</string>
-				<key>ishiddenBack</key>
-				<false/>
-				<key>canEmpty</key>
-				<false/>
 			</dict>
 			<dict>
-				<key>canEdit</key>
-				<false/>
-				<key>placeholder</key>
-				<string></string>
 				<key>title</key>
 				<string>类型5</string>
 				<key>text</key>
 				<string>测试数据5</string>
-				<key>ishiddenBack</key>
-				<false/>
-				<key>canEmpty</key>
-				<false/>
 			</dict>
 		</array>
 	</dict>

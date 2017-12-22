@@ -10,4 +10,6 @@
 
 @protocol ZFTablViewProtocol <NSObject>
 
+-(UIView *)zf_tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section;
+-(UIView *)zf_tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section;
 @end

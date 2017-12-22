@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   demo11.plist
-   ZFLayoutListView
-
-   Created by linzaifei on 2017/12/21.
-   Copyright (c) 2017年 linzaifei. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>sectionHeaderTitle</key>
+		<string>这是第一组</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>itemsArr</key>
+		<array>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_help</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据4</string>
+				<key>title</key>
+				<string>类型4</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据5</string>
+				<key>title</key>
+				<string>类型5</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据6</string>
+				<key>title</key>
+				<string>类型6</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_phone</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据7</string>
+				<key>title</key>
+				<string>类型7</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据1</string>
+				<key>title</key>
+				<string>类型1</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</array>
 </plist>

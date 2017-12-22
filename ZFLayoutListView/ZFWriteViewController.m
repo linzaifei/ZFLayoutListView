@@ -7,7 +7,9 @@
 //
 
 #import "ZFWriteViewController.h"
-
+#import "ZFCustomTools.h"
+extern NSString *zf_key;
+extern NSString *zf_placeholder;
 @interface ZFWriteViewController ()
 
 @end
@@ -16,9 +18,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"点击" style:UIBarButtonItemStylePlain target:self action:@selector(action)];
+    
 }
 
+-(void)action{
+    
+    /** 判断数据是不是为空 和返回需要填写的数据placeholder */
+    NSDictionary *dic = [ZFCustomTools zf_changeInputData](self.dataArr);
+    
+    
+    if (![dic[zf_key] boolValue]) {
+    NSArray *original = @[@[@"1",@"2",@"3",@"4",@"",@"",@"7",]];
+     NSDictionary *d = [ZFCustomTools zf_getObjectWithModelArr:self.dataArr WithOriginal:original];
+        NSLog(@"%@",d);
+    }else{
+        NSLog(@"%@",dic[zf_placeholder]);
+        return;
+    }
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

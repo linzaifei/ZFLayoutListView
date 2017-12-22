@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   demo4.plist
-   ZFLayoutListView
-
-   Created by linzaifei on 2017/12/8.
-   Copyright (c) 2017年 linzaifei. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>sectionHeaderTitle</key>
+		<string>这是分组1</string>
+		<key>itemsArr</key>
+		<array>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_help</string>
+				<key>canTag</key>
+				<true/>
+				<key>title</key>
+				<string>类型1</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>类型2</string>
+			</dict>
+			<dict>
+				<key>canTag</key>
+				<true/>
+				<key>titleImg</key>
+				<string>mediate_phone</string>
+				<key>title</key>
+				<string>类型3</string>
+			</dict>
+			<dict>
+				<key>titleImg</key>
+				<string>mediate_note</string>
+				<key>title</key>
+				<string>类型4</string>
+			</dict>
+			<dict>
+				<key>canTag</key>
+				<true/>
+				<key>title</key>
+				<string>类型5</string>
+			</dict>
+		</array>
+	</dict>
+</array>
 </plist>

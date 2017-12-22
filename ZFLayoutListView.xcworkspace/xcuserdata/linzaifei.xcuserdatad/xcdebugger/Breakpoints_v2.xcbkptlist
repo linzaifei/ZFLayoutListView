@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZFLayoutListView/ZFListView&#x63a7;&#x4ef6;/Model/ZFCustomModel.m"
+            timestampString = "535533169.180114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-copyWithZone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZFLayoutListView/ZFListView&#x63a7;&#x4ef6;/Tools/ZFCustomTools.m"
+            timestampString = "535602617.13194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "+zf_changeInputData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35+[ZFCustomTools zf_changeInputData]_block_invoke_2"
+                  moduleName = "ZFLayoutListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linzaifei/Desktop/linzaifei/IOS/project/ZFLayoutListView/ZFLayoutListView/ZFListView%E6%8E%A7%E4%BB%B6/Tools/ZFCustomTools.m"
+                  timestampString = "535602617.704553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.57"
+                  moduleName = "ZFLayoutListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linzaifei/Desktop/linzaifei/IOS/project/ZFLayoutListView/ZFLayoutListView/ZFListView%E6%8E%A7%E4%BB%B6/Tools/ZFCustomTools.m"
+                  timestampString = "535602617.710587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.58"
+                  moduleName = "ZFLayoutListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/linzaifei/Desktop/linzaifei/IOS/project/ZFLayoutListView/ZFLayoutListView/ZFListView%E6%8E%A7%E4%BB%B6/Tools/ZFCustomTools.m"
+                  timestampString = "535602617.716376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

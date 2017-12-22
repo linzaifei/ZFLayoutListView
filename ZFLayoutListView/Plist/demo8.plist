@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   demo8.plist
-   ZFLayoutListView
-
-   Created by linzaifei on 2017/12/20.
-   Copyright (c) 2017年 linzaifei. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>sectionHeaderTitle</key>
+		<string>这是第一个demo</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>itemsArr</key>
+		<array>
+			<dict>
+				<key>limitLength</key>
+				<integer>10</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据1</string>
+				<key>title</key>
+				<string>类型1</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>limitLength</key>
+				<integer>9</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据2</string>
+				<key>title</key>
+				<string>类型2</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>limitLength</key>
+				<integer>10</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据3</string>
+				<key>title</key>
+				<string>类型3</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>limitLength</key>
+				<integer>10</integer>
+				<key>canEdit</key>
+				<true/>
+				<key>placeholder</key>
+				<string>请输入测试数据4</string>
+				<key>title</key>
+				<string>类型4</string>
+				<key>text</key>
+				<string></string>
+				<key>canHiddenBack</key>
+				<true/>
+				<key>canEmpty</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</array>
 </plist>

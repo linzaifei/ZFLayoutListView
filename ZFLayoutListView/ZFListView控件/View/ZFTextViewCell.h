@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ZFDetailCustomModel;
 @interface ZFTextViewCell : UITableViewCell
-
+@property(strong,nonatomic)ZFDetailCustomModel *model;
 @end
