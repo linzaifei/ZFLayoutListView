@@ -10,6 +10,8 @@
 		<key>itemsArr</key>
 		<array>
 			<dict>
+				<key>keyboardType</key>
+				<integer>5</integer>
 				<key>canEdit</key>
 				<true/>
 				<key>placeholder</key>

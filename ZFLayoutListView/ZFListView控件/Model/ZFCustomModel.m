@@ -31,7 +31,7 @@
     model->_canEdit = _canEdit;
     model->_canHiddenBack = _canHiddenBack;
     model->_canEmpty = _canEmpty;
-    model->_isBord = _isBord;
+//    model->_keyboard = _keyboard;
     model->_limitLength = _limitLength;
     model->_keyboardType = _keyboardType;
     model->_placeholder = [_placeholder copy];
@@ -44,5 +44,19 @@
     model->_parmas = [_parmas copy];
     return model;
 }
+//-(void)setKeyboard:(NSNumber *)keyboard{
+//    _keyboard = keyboard;
+//    switch ([keyboard intValue]) {
+//        case 0:
+//            _keyboardType = UIKeyboardTypeDefault;
+//            break;
+//        case 1:
+//            _keyboardType = UIKeyboardTypePhonePad;
+//            break;
+//
+//        default:
+//            break;
+//    }
+//}
 
 @end

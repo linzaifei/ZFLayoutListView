@@ -28,7 +28,6 @@
     
     [RACObserve(self, model) subscribeNext:^(ZFDetailCustomModel*  _Nullable model) {
         @strongify(self);
-
         self.customView.item.image = model.titleImg?[UIImage imageNamed:model.titleImg] :nil;
         self.customView.item.title = model.title;
         self.customView.item.canTag = model.canTag;
@@ -38,6 +37,7 @@
         self.customView.canEdit = model.canEdit;
         self.customView.canHiddenBack = model.canHiddenBack;
         self.customView.textField.textColor = HexRGB(0x808080);
+        self.customView.textField.keyboardType = model.keyboardType;
     }];
     [self.customView.textField.rac_textSignal subscribeNext:^(NSString * _Nullable x) {
         @strongify(self);

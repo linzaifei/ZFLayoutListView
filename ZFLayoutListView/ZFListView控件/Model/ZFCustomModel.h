@@ -54,9 +54,9 @@ typedef NS_ENUM(NSInteger,ZFShowType){
 /** 是否隐藏箭头 默认 NO*/
 @property(assign,nonatomic)BOOL canHiddenBack;
 /** 键盘类型 1 数字键盘 2 身份证 3 */
-@property(strong,nonatomic)NSNumber *isBord;
+//@property(strong,nonatomic)NSNumber *keyboard;
 /** 键盘类型 */
-@property(nonatomic) UIKeyboardType keyboardType;
+@property(nonatomic,assign) UIKeyboardType keyboardType;
 /** 判断输入的提交时候可不可以为空 */
 @property(assign,nonatomic)BOOL canEmpty;
 
