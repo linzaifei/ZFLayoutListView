@@ -8,6 +8,6 @@
 
 #ifndef ZFCustomHeader_h
 #define ZFCustomHeader_h
-
+#import "NSObject+model.h"
 
 #endif /* ZFCustomHeader_h */

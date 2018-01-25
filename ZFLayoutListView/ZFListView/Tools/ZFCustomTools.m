@@ -16,7 +16,7 @@ const NSString *zf_placeholder = @"placeholder";
 +(NSMutableArray <ZFCustomModel *>*)zf_getDataWithPlist:(NSString *)plist{
     NSString *path = [[NSBundle mainBundle] pathForResource:plist ofType:nil];
     NSArray *arr = [NSArray arrayWithContentsOfFile:path];
-    return [ZFCustomModel mj_objectArrayWithKeyValuesArray:arr];
+    return [ZFCustomModel zf_objectArrayWithKeyValuesArrary:arr];
 }
 
 /** 获取底层模型 */
@@ -26,7 +26,7 @@ const NSString *zf_placeholder = @"placeholder";
 }
 /** 根据模型获取转换数据 */
 +(id)zf_getObjctWithModelArr:(NSArray *)dataArr{
-    return [ZFCustomModel mj_keyValuesArrayWithObjectArray:dataArr];
+    return [ZFCustomModel zf_objectArrayWithKeyValuesArrary:dataArr];
 }
 /**
  根据输入的数据获取输入数据 并且转成对于需要的数据 key-value

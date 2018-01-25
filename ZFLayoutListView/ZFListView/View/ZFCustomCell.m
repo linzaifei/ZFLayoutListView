@@ -43,18 +43,16 @@
         @strongify(self);
         self.model.text = x;
     }];
+    [self rac_valuesForKeyPath:@"dsd" observer:self];
     
 }
 -(void)setUI{
     self.customView = [ZFCumtomView new];
-//    self.customView.translatesAutoresizingMaskIntoConstraints = NO;
+    self.customView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.contentView addSubview:self.customView];
-    [self.customView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.contentView);
-    }];
 
-//    [self.customView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_customView]-0-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:@{@"_customView":_customView}]];
-//    [self.customView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_customView]-0-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:@{@"_customView":_customView}]];
+    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_customView]-0-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:@{@"_customView":_customView}]];
+    [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_customView]-0-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:@{@"_customView":_customView}]];
 }
 
 - (void)awakeFromNib {

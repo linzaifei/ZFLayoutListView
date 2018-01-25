@@ -14,11 +14,22 @@
 		CB8252061FDA6C4E00267419 /* demo6.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8252051FDA6C4E00267419 /* demo6.plist */; };
 		CB8252081FDA70BB00267419 /* demo7.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8252071FDA70BB00267419 /* demo7.plist */; };
 		CBAFC3D51FEB578B007091AC /* demo10.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBAFC3D41FEB578B007091AC /* demo10.plist */; };
-		CBAFC3DD1FEBAE55007091AC /* ZFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAFC3DC1FEBAE55007091AC /* ZFTextViewCell.m */; };
 		CBAFC3DF1FEBAF93007091AC /* demo11.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBAFC3DE1FEBAF93007091AC /* demo11.plist */; };
 		CBAFC3E61FEBB3A5007091AC /* ZFWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAFC3E51FEBB3A5007091AC /* ZFWriteViewController.m */; };
 		CBAFC3E81FEBDFEE007091AC /* demo12.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBAFC3E71FEBDFEE007091AC /* demo12.plist */; };
-		CBAFC3ED1FEBF5F4007091AC /* ZFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAFC3EC1FEBF5F4007091AC /* ZFTextView.m */; };
+		CBB2B74320187CC10059C4E9 /* NSObject+model.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB2B74220187CC10059C4E9 /* NSObject+model.m */; };
+		CBCD21E71FF0F4590034F374 /* ZFCustomTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21CC1FF0F4590034F374 /* ZFCustomTools.m */; };
+		CBCD21E81FF0F4590034F374 /* ZFImg.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBCD21CD1FF0F4590034F374 /* ZFImg.bundle */; };
+		CBCD21E91FF0F4590034F374 /* ZFCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21D11FF0F4590034F374 /* ZFCustomModel.m */; };
+		CBCD21EB1FF0F4590034F374 /* ZFCumtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21D61FF0F4590034F374 /* ZFCumtomView.m */; };
+		CBCD21EC1FF0F4590034F374 /* ZFCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21D71FF0F4590034F374 /* ZFCustomCell.m */; };
+		CBCD21ED1FF0F4590034F374 /* ZFBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21DB1FF0F4590034F374 /* ZFBaseTableView.m */; };
+		CBCD21EE1FF0F4590034F374 /* ZFItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21DC1FF0F4590034F374 /* ZFItem.m */; };
+		CBCD21EF1FF0F4590034F374 /* ZFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21DE1FF0F4590034F374 /* ZFTextView.m */; };
+		CBCD21F01FF0F4590034F374 /* ZFCustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21DF1FF0F4590034F374 /* ZFCustomTableView.m */; };
+		CBCD21F11FF0F4590034F374 /* ZFSwithTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21E01FF0F4590034F374 /* ZFSwithTableViewCell.m */; };
+		CBCD21F21FF0F4590034F374 /* ZFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21E21FF0F4590034F374 /* ZFTextViewCell.m */; };
+		CBCD21F31FF0F4590034F374 /* ZFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD21E61FF0F4590034F374 /* ZFTextField.m */; };
 		CBD20F9D1FD797D3009ED740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20F9C1FD797D3009ED740 /* AppDelegate.m */; };
 		CBD20FA01FD797D3009ED740 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20F9F1FD797D3009ED740 /* ViewController.m */; };
 		CBD20FA31FD797D3009ED740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD20FA11FD797D3009ED740 /* Main.storyboard */; };
@@ -27,20 +38,10 @@
 		CBD20FAB1FD797D3009ED740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FAA1FD797D3009ED740 /* main.m */; };
 		CBD20FB51FD797D3009ED740 /* ZFLayoutListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FB41FD797D3009ED740 /* ZFLayoutListViewTests.m */; };
 		CBD20FC01FD797D3009ED740 /* ZFLayoutListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FBF1FD797D3009ED740 /* ZFLayoutListViewUITests.m */; };
-		CBD20FE01FD797F0009ED740 /* ZFCustomTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FD21FD797F0009ED740 /* ZFCustomTools.m */; };
-		CBD20FE11FD797F0009ED740 /* ZFCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FD61FD797F0009ED740 /* ZFCustomModel.m */; };
-		CBD20FE21FD797F0009ED740 /* ZFCumtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FD91FD797F0009ED740 /* ZFCumtomView.m */; };
-		CBD20FE31FD797F0009ED740 /* ZFCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FDA1FD797F0009ED740 /* ZFCustomCell.m */; };
-		CBD20FE41FD797F0009ED740 /* ZFCustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FDC1FD797F0009ED740 /* ZFCustomTableView.m */; };
-		CBD20FE51FD797F0009ED740 /* ZFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD20FDF1FD797F0009ED740 /* ZFTextField.m */; };
-		CBD20FE71FD79AE7009ED740 /* ZFImg.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBD20FE61FD79AE7009ED740 /* ZFImg.bundle */; };
-		CBD211571FD7D0B8009ED740 /* ZFItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD211561FD7D0B8009ED740 /* ZFItem.m */; };
 		CBD2115A1FD7DEA0009ED740 /* demo1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBD211591FD7DEA0009ED740 /* demo1.plist */; };
 		CBD2115D1FD7DF28009ED740 /* ZFShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD2115C1FD7DF28009ED740 /* ZFShowViewController.m */; };
 		CBE108021FEC92A5005A65A8 /* demo13.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE108011FEC92A5005A65A8 /* demo13.plist */; };
-		CBEBFA251FEA4C250093E8CB /* ZFBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEBFA241FEA4C250093E8CB /* ZFBaseTableView.m */; };
 		CBEBFA271FEA4F5E0093E8CB /* demo8.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEBFA261FEA4F5E0093E8CB /* demo8.plist */; };
-		CBEBFA2D1FEA54BE0093E8CB /* ZFSwithTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEBFA2C1FEA54BE0093E8CB /* ZFSwithTableViewCell.m */; };
 		CBEBFA2F1FEA56A20093E8CB /* demo9.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEBFA2E1FEA56A20093E8CB /* demo9.plist */; };
 		ECE0B0D4CFC55EF0AE3FA094 /* Pods_ZFLayoutListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AD910499B70149EFBC049D /* Pods_ZFLayoutListView.framework */; };
 /* End PBXBuildFile section */
@@ -73,14 +74,38 @@
 		CB8252051FDA6C4E00267419 /* demo6.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo6.plist; sourceTree = "<group>"; };
 		CB8252071FDA70BB00267419 /* demo7.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo7.plist; sourceTree = "<group>"; };
 		CBAFC3D41FEB578B007091AC /* demo10.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo10.plist; sourceTree = "<group>"; };
-		CBAFC3DB1FEBAE55007091AC /* ZFTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFTextViewCell.h; sourceTree = "<group>"; };
-		CBAFC3DC1FEBAE55007091AC /* ZFTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTextViewCell.m; sourceTree = "<group>"; };
 		CBAFC3DE1FEBAF93007091AC /* demo11.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo11.plist; sourceTree = "<group>"; };
 		CBAFC3E41FEBB3A5007091AC /* ZFWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFWriteViewController.h; sourceTree = "<group>"; };
 		CBAFC3E51FEBB3A5007091AC /* ZFWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFWriteViewController.m; sourceTree = "<group>"; };
 		CBAFC3E71FEBDFEE007091AC /* demo12.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo12.plist; sourceTree = "<group>"; };
-		CBAFC3EB1FEBF5F4007091AC /* ZFTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFTextView.h; sourceTree = "<group>"; };
-		CBAFC3EC1FEBF5F4007091AC /* ZFTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTextView.m; sourceTree = "<group>"; };
+		CBB2B74120187CC10059C4E9 /* NSObject+model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+model.h"; sourceTree = "<group>"; };
+		CBB2B74220187CC10059C4E9 /* NSObject+model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+model.m"; sourceTree = "<group>"; };
+		CBCD21C91FF0F4590034F374 /* ZFCustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomHeader.h; sourceTree = "<group>"; };
+		CBCD21CA1FF0F4590034F374 /* ZFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConfig.h; sourceTree = "<group>"; };
+		CBCD21CB1FF0F4590034F374 /* ZFCustomTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomTools.h; sourceTree = "<group>"; };
+		CBCD21CC1FF0F4590034F374 /* ZFCustomTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTools.m; sourceTree = "<group>"; };
+		CBCD21CD1FF0F4590034F374 /* ZFImg.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFImg.bundle; sourceTree = "<group>"; };
+		CBCD21D01FF0F4590034F374 /* ZFCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomModel.h; sourceTree = "<group>"; };
+		CBCD21D11FF0F4590034F374 /* ZFCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomModel.m; sourceTree = "<group>"; };
+		CBCD21D41FF0F4590034F374 /* ZFCustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomTableView.h; sourceTree = "<group>"; };
+		CBCD21D51FF0F4590034F374 /* ZFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTextView.h; sourceTree = "<group>"; };
+		CBCD21D61FF0F4590034F374 /* ZFCumtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCumtomView.m; sourceTree = "<group>"; };
+		CBCD21D71FF0F4590034F374 /* ZFCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomCell.m; sourceTree = "<group>"; };
+		CBCD21D81FF0F4590034F374 /* ZFTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTextViewCell.h; sourceTree = "<group>"; };
+		CBCD21D91FF0F4590034F374 /* ZFSwithTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSwithTableViewCell.h; sourceTree = "<group>"; };
+		CBCD21DA1FF0F4590034F374 /* ZFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTextField.h; sourceTree = "<group>"; };
+		CBCD21DB1FF0F4590034F374 /* ZFBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaseTableView.m; sourceTree = "<group>"; };
+		CBCD21DC1FF0F4590034F374 /* ZFItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFItem.m; sourceTree = "<group>"; };
+		CBCD21DD1FF0F4590034F374 /* ZFTablViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTablViewProtocol.h; sourceTree = "<group>"; };
+		CBCD21DE1FF0F4590034F374 /* ZFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTextView.m; sourceTree = "<group>"; };
+		CBCD21DF1FF0F4590034F374 /* ZFCustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTableView.m; sourceTree = "<group>"; };
+		CBCD21E01FF0F4590034F374 /* ZFSwithTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSwithTableViewCell.m; sourceTree = "<group>"; };
+		CBCD21E11FF0F4590034F374 /* ZFCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomCell.h; sourceTree = "<group>"; };
+		CBCD21E21FF0F4590034F374 /* ZFTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTextViewCell.m; sourceTree = "<group>"; };
+		CBCD21E31FF0F4590034F374 /* ZFCumtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCumtomView.h; sourceTree = "<group>"; };
+		CBCD21E41FF0F4590034F374 /* ZFItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFItem.h; sourceTree = "<group>"; };
+		CBCD21E51FF0F4590034F374 /* ZFBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaseTableView.h; sourceTree = "<group>"; };
+		CBCD21E61FF0F4590034F374 /* ZFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTextField.m; sourceTree = "<group>"; };
 		CBD20F981FD797D3009ED740 /* ZFLayoutListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFLayoutListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD20F9B1FD797D3009ED740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBD20F9C1FD797D3009ED740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,34 +122,12 @@
 		CBD20FBB1FD797D3009ED740 /* ZFLayoutListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFLayoutListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD20FBF1FD797D3009ED740 /* ZFLayoutListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFLayoutListViewUITests.m; sourceTree = "<group>"; };
 		CBD20FC11FD797D3009ED740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBD20FCF1FD797F0009ED740 /* ZFCustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomHeader.h; sourceTree = "<group>"; };
-		CBD20FD01FD797F0009ED740 /* ZFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConfig.h; sourceTree = "<group>"; };
-		CBD20FD11FD797F0009ED740 /* ZFCustomTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomTools.h; sourceTree = "<group>"; };
-		CBD20FD21FD797F0009ED740 /* ZFCustomTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTools.m; sourceTree = "<group>"; };
-		CBD20FD51FD797F0009ED740 /* ZFCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomModel.h; sourceTree = "<group>"; };
-		CBD20FD61FD797F0009ED740 /* ZFCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomModel.m; sourceTree = "<group>"; };
-		CBD20FD81FD797F0009ED740 /* ZFCustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomTableView.h; sourceTree = "<group>"; };
-		CBD20FD91FD797F0009ED740 /* ZFCumtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCumtomView.m; sourceTree = "<group>"; };
-		CBD20FDA1FD797F0009ED740 /* ZFCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomCell.m; sourceTree = "<group>"; };
-		CBD20FDB1FD797F0009ED740 /* ZFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTextField.h; sourceTree = "<group>"; };
-		CBD20FDC1FD797F0009ED740 /* ZFCustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTableView.m; sourceTree = "<group>"; };
-		CBD20FDD1FD797F0009ED740 /* ZFCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomCell.h; sourceTree = "<group>"; };
-		CBD20FDE1FD797F0009ED740 /* ZFCumtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCumtomView.h; sourceTree = "<group>"; };
-		CBD20FDF1FD797F0009ED740 /* ZFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTextField.m; sourceTree = "<group>"; };
-		CBD20FE61FD79AE7009ED740 /* ZFImg.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFImg.bundle; sourceTree = "<group>"; };
 		CBD20FE81FD7BC93009ED740 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CBD211551FD7D0B8009ED740 /* ZFItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFItem.h; sourceTree = "<group>"; };
-		CBD211561FD7D0B8009ED740 /* ZFItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFItem.m; sourceTree = "<group>"; };
 		CBD211591FD7DEA0009ED740 /* demo1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo1.plist; sourceTree = "<group>"; };
 		CBD2115B1FD7DF28009ED740 /* ZFShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFShowViewController.h; sourceTree = "<group>"; };
 		CBD2115C1FD7DF28009ED740 /* ZFShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFShowViewController.m; sourceTree = "<group>"; };
 		CBE108011FEC92A5005A65A8 /* demo13.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo13.plist; sourceTree = "<group>"; };
-		CBEBFA221FEA4B750093E8CB /* ZFTablViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFTablViewProtocol.h; sourceTree = "<group>"; };
-		CBEBFA231FEA4C250093E8CB /* ZFBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFBaseTableView.h; sourceTree = "<group>"; };
-		CBEBFA241FEA4C250093E8CB /* ZFBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFBaseTableView.m; sourceTree = "<group>"; };
 		CBEBFA261FEA4F5E0093E8CB /* demo8.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo8.plist; sourceTree = "<group>"; };
-		CBEBFA2B1FEA54BE0093E8CB /* ZFSwithTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSwithTableViewCell.h; sourceTree = "<group>"; };
-		CBEBFA2C1FEA54BE0093E8CB /* ZFSwithTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSwithTableViewCell.m; sourceTree = "<group>"; };
 		CBEBFA2E1FEA56A20093E8CB /* demo9.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo9.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +174,73 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CBCD21C71FF0F4590034F374 /* ZFListView */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD21C81FF0F4590034F374 /* Tools */,
+				CBCD21CD1FF0F4590034F374 /* ZFImg.bundle */,
+				CBCD21CE1FF0F4590034F374 /* Controller */,
+				CBCD21CF1FF0F4590034F374 /* Model */,
+				CBCD21D21FF0F4590034F374 /* View */,
+			);
+			path = ZFListView;
+			sourceTree = "<group>";
+		};
+		CBCD21C81FF0F4590034F374 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2B74120187CC10059C4E9 /* NSObject+model.h */,
+				CBB2B74220187CC10059C4E9 /* NSObject+model.m */,
+				CBCD21C91FF0F4590034F374 /* ZFCustomHeader.h */,
+				CBCD21CA1FF0F4590034F374 /* ZFConfig.h */,
+				CBCD21CB1FF0F4590034F374 /* ZFCustomTools.h */,
+				CBCD21CC1FF0F4590034F374 /* ZFCustomTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CBCD21CE1FF0F4590034F374 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBCD21CF1FF0F4590034F374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD21D01FF0F4590034F374 /* ZFCustomModel.h */,
+				CBCD21D11FF0F4590034F374 /* ZFCustomModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBCD21D21FF0F4590034F374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD21E51FF0F4590034F374 /* ZFBaseTableView.h */,
+				CBCD21DB1FF0F4590034F374 /* ZFBaseTableView.m */,
+				CBCD21D41FF0F4590034F374 /* ZFCustomTableView.h */,
+				CBCD21DF1FF0F4590034F374 /* ZFCustomTableView.m */,
+				CBCD21D51FF0F4590034F374 /* ZFTextView.h */,
+				CBCD21DE1FF0F4590034F374 /* ZFTextView.m */,
+				CBCD21DA1FF0F4590034F374 /* ZFTextField.h */,
+				CBCD21E61FF0F4590034F374 /* ZFTextField.m */,
+				CBCD21E31FF0F4590034F374 /* ZFCumtomView.h */,
+				CBCD21D61FF0F4590034F374 /* ZFCumtomView.m */,
+				CBCD21E11FF0F4590034F374 /* ZFCustomCell.h */,
+				CBCD21D71FF0F4590034F374 /* ZFCustomCell.m */,
+				CBCD21D81FF0F4590034F374 /* ZFTextViewCell.h */,
+				CBCD21E21FF0F4590034F374 /* ZFTextViewCell.m */,
+				CBCD21E41FF0F4590034F374 /* ZFItem.h */,
+				CBCD21DC1FF0F4590034F374 /* ZFItem.m */,
+				CBCD21DD1FF0F4590034F374 /* ZFTablViewProtocol.h */,
+				CBCD21D91FF0F4590034F374 /* ZFSwithTableViewCell.h */,
+				CBCD21E01FF0F4590034F374 /* ZFSwithTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CBD20F8F1FD797D3009ED740 = {
 			isa = PBXGroup;
 			children = (
@@ -199,13 +269,13 @@
 				CBD211581FD7DEA0009ED740 /* Plist */,
 				CBD20F9B1FD797D3009ED740 /* AppDelegate.h */,
 				CBD20F9C1FD797D3009ED740 /* AppDelegate.m */,
+				CBCD21C71FF0F4590034F374 /* ZFListView */,
 				CBD20F9E1FD797D3009ED740 /* ViewController.h */,
 				CBD20F9F1FD797D3009ED740 /* ViewController.m */,
 				CBD2115B1FD7DF28009ED740 /* ZFShowViewController.h */,
 				CBD2115C1FD7DF28009ED740 /* ZFShowViewController.m */,
 				CBAFC3E41FEBB3A5007091AC /* ZFWriteViewController.h */,
 				CBAFC3E51FEBB3A5007091AC /* ZFWriteViewController.m */,
-				CBD20FCD1FD797F0009ED740 /* ZFListView控件 */,
 				CBD20FA11FD797D3009ED740 /* Main.storyboard */,
 				CBD20FA41FD797D3009ED740 /* Assets.xcassets */,
 				CBD20FA61FD797D3009ED740 /* LaunchScreen.storyboard */,
@@ -232,71 +302,6 @@
 				CBD20FC11FD797D3009ED740 /* Info.plist */,
 			);
 			path = ZFLayoutListViewUITests;
-			sourceTree = "<group>";
-		};
-		CBD20FCD1FD797F0009ED740 /* ZFListView控件 */ = {
-			isa = PBXGroup;
-			children = (
-				CBD20FCE1FD797F0009ED740 /* Tools */,
-				CBD20FD31FD797F0009ED740 /* Controller */,
-				CBD20FD41FD797F0009ED740 /* Model */,
-				CBD20FD71FD797F0009ED740 /* View */,
-				CBD20FE61FD79AE7009ED740 /* ZFImg.bundle */,
-			);
-			path = "ZFListView控件";
-			sourceTree = "<group>";
-		};
-		CBD20FCE1FD797F0009ED740 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				CBD20FCF1FD797F0009ED740 /* ZFCustomHeader.h */,
-				CBD20FD01FD797F0009ED740 /* ZFConfig.h */,
-				CBD20FD11FD797F0009ED740 /* ZFCustomTools.h */,
-				CBD20FD21FD797F0009ED740 /* ZFCustomTools.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		CBD20FD31FD797F0009ED740 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CBD20FD41FD797F0009ED740 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CBD20FD51FD797F0009ED740 /* ZFCustomModel.h */,
-				CBD20FD61FD797F0009ED740 /* ZFCustomModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CBD20FD71FD797F0009ED740 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CBEBFA231FEA4C250093E8CB /* ZFBaseTableView.h */,
-				CBEBFA241FEA4C250093E8CB /* ZFBaseTableView.m */,
-				CBD20FD81FD797F0009ED740 /* ZFCustomTableView.h */,
-				CBD20FDC1FD797F0009ED740 /* ZFCustomTableView.m */,
-				CBD20FDD1FD797F0009ED740 /* ZFCustomCell.h */,
-				CBD20FDA1FD797F0009ED740 /* ZFCustomCell.m */,
-				CBD20FDE1FD797F0009ED740 /* ZFCumtomView.h */,
-				CBD20FD91FD797F0009ED740 /* ZFCumtomView.m */,
-				CBEBFA2B1FEA54BE0093E8CB /* ZFSwithTableViewCell.h */,
-				CBEBFA2C1FEA54BE0093E8CB /* ZFSwithTableViewCell.m */,
-				CBAFC3DB1FEBAE55007091AC /* ZFTextViewCell.h */,
-				CBAFC3DC1FEBAE55007091AC /* ZFTextViewCell.m */,
-				CBD20FDB1FD797F0009ED740 /* ZFTextField.h */,
-				CBD20FDF1FD797F0009ED740 /* ZFTextField.m */,
-				CBAFC3EB1FEBF5F4007091AC /* ZFTextView.h */,
-				CBAFC3EC1FEBF5F4007091AC /* ZFTextView.m */,
-				CBD211551FD7D0B8009ED740 /* ZFItem.h */,
-				CBD211561FD7D0B8009ED740 /* ZFItem.m */,
-				CBEBFA221FEA4B750093E8CB /* ZFTablViewProtocol.h */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CBD211581FD7DEA0009ED740 /* Plist */ = {
@@ -390,6 +395,11 @@
 					CBD20F971FD797D3009ED740 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					CBD20FAF1FD797D3009ED740 = {
 						CreatedOnToolsVersion = 9.1;
@@ -433,7 +443,6 @@
 				CB8252041FDA6BCE00267419 /* demo5.plist in Resources */,
 				CBE108021FEC92A5005A65A8 /* demo13.plist in Resources */,
 				CBD20FA81FD797D3009ED740 /* LaunchScreen.storyboard in Resources */,
-				CBD20FE71FD79AE7009ED740 /* ZFImg.bundle in Resources */,
 				CB8252061FDA6C4E00267419 /* demo6.plist in Resources */,
 				CBD20FA51FD797D3009ED740 /* Assets.xcassets in Resources */,
 				CBD20FA31FD797D3009ED740 /* Main.storyboard in Resources */,
@@ -442,6 +451,7 @@
 				CB8252021FDA6B0B00267419 /* demo4.plist in Resources */,
 				CBEBFA271FEA4F5E0093E8CB /* demo8.plist in Resources */,
 				CBEBFA2F1FEA56A20093E8CB /* demo9.plist in Resources */,
+				CBCD21E81FF0F4590034F374 /* ZFImg.bundle in Resources */,
 				CBD2115A1FD7DEA0009ED740 /* demo1.plist in Resources */,
 				CBAFC3E81FEBDFEE007091AC /* demo12.plist in Resources */,
 				CBAFC3DF1FEBAF93007091AC /* demo11.plist in Resources */,
@@ -529,22 +539,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCD21EB1FF0F4590034F374 /* ZFCumtomView.m in Sources */,
 				CBD20FA01FD797D3009ED740 /* ViewController.m in Sources */,
-				CBAFC3DD1FEBAE55007091AC /* ZFTextViewCell.m in Sources */,
-				CBEBFA2D1FEA54BE0093E8CB /* ZFSwithTableViewCell.m in Sources */,
-				CBD20FE21FD797F0009ED740 /* ZFCumtomView.m in Sources */,
-				CBD20FE51FD797F0009ED740 /* ZFTextField.m in Sources */,
 				CBD20FAB1FD797D3009ED740 /* main.m in Sources */,
-				CBD211571FD7D0B8009ED740 /* ZFItem.m in Sources */,
-				CBEBFA251FEA4C250093E8CB /* ZFBaseTableView.m in Sources */,
-				CBD20FE31FD797F0009ED740 /* ZFCustomCell.m in Sources */,
-				CBD20FE41FD797F0009ED740 /* ZFCustomTableView.m in Sources */,
-				CBD20FE01FD797F0009ED740 /* ZFCustomTools.m in Sources */,
-				CBAFC3ED1FEBF5F4007091AC /* ZFTextView.m in Sources */,
+				CBCD21E71FF0F4590034F374 /* ZFCustomTools.m in Sources */,
+				CBCD21E91FF0F4590034F374 /* ZFCustomModel.m in Sources */,
+				CBCD21EE1FF0F4590034F374 /* ZFItem.m in Sources */,
+				CBCD21ED1FF0F4590034F374 /* ZFBaseTableView.m in Sources */,
+				CBCD21F01FF0F4590034F374 /* ZFCustomTableView.m in Sources */,
+				CBCD21EC1FF0F4590034F374 /* ZFCustomCell.m in Sources */,
 				CBD2115D1FD7DF28009ED740 /* ZFShowViewController.m in Sources */,
+				CBCD21F21FF0F4590034F374 /* ZFTextViewCell.m in Sources */,
 				CBAFC3E61FEBB3A5007091AC /* ZFWriteViewController.m in Sources */,
+				CBCD21F11FF0F4590034F374 /* ZFSwithTableViewCell.m in Sources */,
 				CBD20F9D1FD797D3009ED740 /* AppDelegate.m in Sources */,
-				CBD20FE11FD797F0009ED740 /* ZFCustomModel.m in Sources */,
+				CBCD21EF1FF0F4590034F374 /* ZFTextView.m in Sources */,
+				CBB2B74320187CC10059C4E9 /* NSObject+model.m in Sources */,
+				CBCD21F31FF0F4590034F374 /* ZFTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

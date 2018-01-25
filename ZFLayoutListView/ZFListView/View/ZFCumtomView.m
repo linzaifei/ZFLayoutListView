@@ -50,7 +50,7 @@
     self.item.font = [UIFont systemFontOfSize:15];
     self.item.titleColor = HexRGB(0x333333);
     [self addSubview:self.item];
-//    self.item.translatesAutoresizingMaskIntoConstraints = NO;
+    self.item.translatesAutoresizingMaskIntoConstraints = NO;
     [self.item setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
     
     self.textField = [ZFTextField new];
@@ -59,23 +59,19 @@
     self.textField.font = [UIFont systemFontOfSize:14];
     self.textField.delegate = self;
     self.textField.textAlignment = NSTextAlignmentRight;
-//    self.textField.translatesAutoresizingMaskIntoConstraints = NO;
+    self.textField.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:self.textField];
+
+
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.item attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeLeft multiplier:1.0 constant:10 ]];
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:self.item attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0 ]];
     
-    [self.item mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(@10);
-        make.centerY.equalTo(self.mas_centerY);
-    }];
-    [self.textField mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.greaterThanOrEqualTo(self.item.mas_right).offset(3);
-        make.centerY.equalTo(self.item.mas_centerY);
-        make.right.equalTo(self.mas_right).offset(-10);
-    }];
-//    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-10-[_item]-5-[_textField]-10-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:@{@"_item":_item,@"_textField":_textField}]];
-//
-//    [self addConstraint:[NSLayoutConstraint constraintWithItem:_textField attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0]];
-//
-//    [self addConstraint:[NSLayoutConstraint constraintWithItem:_textField attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:30]];
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:_textField attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationGreaterThanOrEqual toItem:self.item attribute:NSLayoutAttributeLeft multiplier:1.0 constant:3 ]];
+    
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:_textField attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0]];
+    
+ [self addConstraint:[NSLayoutConstraint constraintWithItem:_textField attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeRight multiplier:1.0 constant:-10]];
+
 }
 
 -(void)layoutSubviews{
